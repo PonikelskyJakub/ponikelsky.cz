@@ -40,22 +40,22 @@ export function AboutAndGallery() {
 >
   {/* Fotka 1 */}
   <motion.div variants={item} className="aspect-square rounded-xl overflow-hidden border border-slate-200">
-    <img src="/beh.jpg" alt="Jakub při práci" className="h-full w-full object-cover" />
+    <img src="/beh.jpeg" alt="Jakub při běhu" className="h-full w-full object-cover" />
   </motion.div>
 
   {/* Fotka 2 */}
   <motion.div variants={item} className="aspect-square rounded-xl overflow-hidden border border-slate-200">
-    <img src="/rodina.jpeg" alt="Agilní coaching" className="h-full w-full object-cover" />
+    <img src="/rodina.jpeg" alt="Jakub s dcerou" className="h-full w-full object-cover" />
   </motion.div>
 
   {/* Fotka 3 */}
   <motion.div variants={item} className="aspect-square rounded-xl overflow-hidden border border-slate-200">
-    <img src="/hokej.jpg" alt="Rodina a motivace" className="h-full w-full object-cover" />
+    <img src="/hokej.jpg" alt="Jakub jako hokejista" className="h-full w-full object-cover" />
   </motion.div>
 
   {/* Fotka 4 */}
   <motion.div variants={item} className="aspect-square rounded-xl overflow-hidden border border-slate-200">
-    <img src="/chatgpt.png" alt="Zdravý životní styl" className="h-full w-full object-cover" />
+    <img src="/chatgpt.png" alt="Prezentující AI Jakub" className="h-full w-full object-cover" />
   </motion.div>
 </motion.div>
         </motion.div>
