@@ -31,7 +31,10 @@ export function AboutAndGallery() {
               O mně
             </h2>
             <p className="text-slate-600 leading-relaxed">
-            Věřím, že skutečný pokrok nastává v bodě, kde se potkává disciplína a lidskost. Jako Scrum Master vím, že ty nejlepší výsledky nedoručují procesy, ale lidé, kteří jim rozumí. Moje cesta není jen o agilním řízení – je o hledání win-win řešení v byznysu i v životě. Mým největším zázemím a motivací je moje rodina, která mě učí trpělivosti a nadhledu. Ať už ladím efektivitu týmu, studuji vliv výživy na náš výkon, nebo objevuji nové možnosti v AI, vždy hledám cestu, jak věci dělat smysluplněji a lépe.
+            Věřím, že skutečný pokrok nastává v bodě, kde se potkává disciplína a lidskost. Jako Scrum Master vím, že ty nejlepší výsledky nedoručují procesy, ale lidé, kteří jim rozumí. Moje cesta není jen o agilním řízení – je o hledání win-win řešení v byznysu i v životě. 
+            <br />
+            <br />
+            Mým největším zázemím a motivací je moje rodina, která mě učí trpělivosti a nadhledu. Ať už ladím efektivitu týmu, studuji vliv výživy na náš výkon, nebo objevuji nové možnosti v AI, vždy hledám cestu, jak věci dělat smysluplněji a lépe.
             </p>
           </motion.div>
           <motion.div

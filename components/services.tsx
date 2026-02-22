@@ -8,19 +8,19 @@ const services = [
     title: "Agilní koučink & Scrum",
     icon: Users,
     description:
-      "Buduji prostředí, kde týmy přebírají zodpovědnost a doručují skutečnou hodnotu. Zaměřuji se na efektivní facilitaci, odstraňování bariér a nastavení procesů, které lidem neházejí klacky pod nohy."
+      "Buduji prostředí, kde týmy přebírají zodpovědnost a doručují skutečnou hodnotu. Zaměřuji se na efektivní facilitaci, odstraňování bariér, práci s jednotlivci i nastavení procesů, které lidem neházejí klacky pod nohy."
   },
   {
     title: "Výživa & Zdravý životní styl",
     icon: Heart,
     description:
-      "Věřím, že tělo je hardware pro naši mysl. Zabývám se tím jak optimalizovat energii skrze vyváženou stravu a udržitelné návyky, protože špičkový pracovní výkon začíná u toho, jak se cítíme ve svém vlastním těle."
+      "Věřím, že tělo je hardware pro naši mysl. Zabývám se tím jak optimalizovat energii skrze vyváženou stravu, pohyb a udržitelné návyky, protože špičkový pracovní výkon začíná u toho, jak se cítíme ve svém vlastním těle."
   },
   {
     title: "Osobnostní rozvoj",
     icon: Lightbulb,
     description:
-      "Zajímá mě rozvoj v oblasti leadershipu, pozitivního mindsetu, zdraví, moderních technologií (AI), investic a dalších oblastech. Neustále hledám cesty, jak růst – ať už skrze odbornou literaturu, podcasty nebo budování nových byznysových příležitostí a vztahů."
+      "Zajímá mě rozvoj v oblasti leadershipu, pozitivního mindsetu, zdraví, moderních technologií (AI), investic a dalších oblastech. Neustále hledám cesty, jak růst – ať už skrze odbornou literaturu, podcasty, semináře nebo budování nových byznysových příležitostí a vztahů."
   }
 ];
 
