@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+
+/* Logo: monolinear uppercase, navy; O has two gaps (top-right and bottom-left) */
+.logo-text {
+  letter-spacing: 0.12em;
+}
+
+/* O same visual size as other letters (cap height); stroke matches letter weight */
+.split-ring {
+  position: relative;
+  display: inline-block;
+  width: 0.78em;
+  height: 0.78em;
+  margin-right: 0.12em;
+  vertical-align: -0.04em;
+  border-radius: 9999px;
+  border: 0.11em solid #2A4B7C;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+/* Gap in top-right quadrant */
+.split-ring::before {
+  content: "";
+  position: absolute;
+  width: 0.36em;
+  height: 0.15em;
+  top: -0.04em;
+  right: -0.04em;
+  background-color: #ffffff;
+  transform: translate(35%, -35%) rotate(-45deg);
+}
+
+/* Gap in bottom-left quadrant */
+.split-ring::after {
+  content: "";
+  position: absolute;
+  width: 0.36em;
+  height: 0.15em;
+  bottom: -0.04em;
+  left: -0.04em;
+  background-color: #ffffff;
+  transform: translate(-35%, 35%) rotate(-45deg);
+}
+
+.hero-pattern {
+  position: relative;
+  isolation: isolate;
+}
+
+.hero-pattern::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 0% 0%, rgba(42, 75, 124, 0.06), transparent 55%),
+    radial-gradient(circle at 100% 100%, rgba(42, 75, 124, 0.04), transparent 55%);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+/* Soft mint glow for service cards on hover */
+.card-mint-glow {
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card-mint-glow:hover {
+  border-color: rgba(127, 224, 194, 0.6);
+  box-shadow:
+    0 0 28px rgba(127, 224, 194, 0.35),
+    0 0 48px rgba(127, 224, 194, 0.15),
+    0 12px 28px rgba(15, 23, 42, 0.08);
+}
+
